@@ -1,0 +1,20 @@
+.content__photo-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 1184px;
+}
+
+.content__photo-grid_container {
+    display: grid;
+    gap: 16px; /* Расстояние между элементами */
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+
+.content__photo-grid_container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}

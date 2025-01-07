@@ -2,3 +2,5 @@
 @import "../blocks/root/root.css";
 @import "../blocks/content/content.css";
 @import "../blocks/content/__lead/content__lead.css";
+@import "../blocks/content/__intro/content__intro.css";
+@import "../blocks/content/__photo-grid/content__photo-grid.css";
