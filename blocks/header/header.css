@@ -1,0 +1,28 @@
+.header {
+    margin-top: 28px;
+    max-width: 1184px;
+}
+
+.header_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_lang {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 17px;
+}
+
+.header_lang_ru {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.header_lang_en {
+    font-size: 24px;
+}
