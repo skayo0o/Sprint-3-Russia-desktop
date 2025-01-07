@@ -1,0 +1,44 @@
+.footer {
+    margin-bottom: 20px;
+    max-width: 1184px;
+}
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_content a {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-right: 18px;
+    text-decoration: none;
+}
+
+.footer-right {
+    margin-left: auto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+/* Если элементы не помещаются в строку, они будут переходить в колонку */
+@media (max-width: 768px) {
+    .footer_content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer_content a {
+        margin-bottom: 32px;
+        font-size: 24px;
+    }
+
+    .footer-right {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+}
